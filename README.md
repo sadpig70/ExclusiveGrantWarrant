@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/ExclusiveGrantWarrant_hero.png" alt="ExclusiveGrantWarrant conflict-free rights clearing and provenance warrant banner" width="100%">
+</p>
+
 # ExclusiveGrantWarrant
 
 Deterministic clearing, conflict-free allocation, and per-grant provenance warrants for a finite pool of mutually-exclusive rights.
