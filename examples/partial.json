@@ -1,0 +1,42 @@
+{
+  "round_id": "EGW-002",
+  "rights_pool": [
+    "lane-1",
+    "lane-2"
+  ],
+  "bids": [
+    {
+      "bid_id": "b1",
+      "holder": "northwind",
+      "rights": [
+        "lane-1"
+      ],
+      "price_per_unit": 10.0,
+      "priority": 5,
+      "provenance": {
+        "holder_id": "northwind",
+        "evidence": [
+          "permit.pdf"
+        ],
+        "attestation_sha256": "3333333333333333333333333333333333333333333333333333333333333333"
+      }
+    },
+    {
+      "bid_id": "b2",
+      "holder": "umbrella",
+      "rights": [
+        "lane-1",
+        "lane-2"
+      ],
+      "price_per_unit": 8.0,
+      "priority": 2,
+      "provenance": {
+        "holder_id": "umbrella",
+        "evidence": [
+          "permit.pdf"
+        ],
+        "attestation_sha256": "4444444444444444444444444444444444444444444444444444444444444444"
+      }
+    }
+  ]
+}

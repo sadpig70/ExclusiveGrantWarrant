@@ -1,0 +1,22 @@
+{
+  "round_id": "EGW-003",
+  "rights_pool": [
+    "slot-X"
+  ],
+  "bids": [
+    {
+      "bid_id": "b1",
+      "holder": "initech",
+      "rights": [
+        "slot-X"
+      ],
+      "price_per_unit": 10.0,
+      "priority": 5,
+      "provenance": {
+        "holder_id": "initech",
+        "evidence": [],
+        "attestation_sha256": ""
+      }
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "round_id": "EGW-001",
+  "rights_pool": [
+    "band-A",
+    "band-B",
+    "band-C"
+  ],
+  "bids": [
+    {
+      "bid_id": "b1",
+      "holder": "acme",
+      "rights": [
+        "band-A",
+        "band-B"
+      ],
+      "price_per_unit": 12.0,
+      "priority": 5,
+      "provenance": {
+        "holder_id": "acme",
+        "evidence": [
+          "license.pdf",
+          "kyc.json"
+        ],
+        "attestation_sha256": "1111111111111111111111111111111111111111111111111111111111111111"
+      }
+    },
+    {
+      "bid_id": "b2",
+      "holder": "globex",
+      "rights": [
+        "band-C"
+      ],
+      "price_per_unit": 9.0,
+      "priority": 3,
+      "provenance": {
+        "holder_id": "globex",
+        "evidence": [
+          "license.pdf"
+        ],
+        "attestation_sha256": "2222222222222222222222222222222222222222222222222222222222222222"
+      }
+    }
+  ]
+}
